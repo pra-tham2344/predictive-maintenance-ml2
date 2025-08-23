@@ -43,13 +43,13 @@ Saved trained models (Random Forest, XGboost, LSTM) and intermediate datasets to
 - Matplotlib, Seaborn
 - Google Colab  
 
-*Dataset* 
+**Dataset** 
 
 I have used the NASA CMAPSS dataset for this project. It contains sensor readings, operational settings, and cycle information for multiple turbofan engines. Each engine runs until failure, which makes it suitable for predicting Remaining Useful Life (RUL).
 *Models Methods*
 For this project, I tried out different machine learning models to check which works better for RUL prediction. I started with Random Forest as a baseline, then moved to XGBoost for tabular data, and finally used LSTM to handle the time-series nature of engine cycles.
 
-*Results*
+**Results**
 
 I compared the models using RMSE, MAE, and R2 metrics.
  - **Random Forest** --> baseline performance.
@@ -61,7 +61,7 @@ let us look comparison of the above 3 models in the following table:
    XGBoost            6.59     4.39     0.97
    LSTM               14.74    11.53    0.86
 
-*Results visualization*
+**Results visualization**
 
 Here are some of the compppparison plots from the models:
 **XGBoost - Actual vs Predicted RUL**
@@ -72,7 +72,7 @@ Here are some of the compppparison plots from the models:
 *Future work*
 I plan to improve this project by testing deep learning models( CNN-LSTM), and maybe deploying the best model as an API for real-time predictions.
 
-*Acknowledgements*
+**Acknowledgements**
 
 Dataset is from NASA Prognostics Center of EXCELLENCE(CMAPSS).
 
