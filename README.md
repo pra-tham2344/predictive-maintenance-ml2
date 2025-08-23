@@ -71,7 +71,9 @@ Here are some of the compppparison plots from the models:
 **LSTM - Actual vs Predicted RUL**
 ![LSTM Results](results/code04_lstm_actual_vs_pred.png
 )
-*Future work*
+
+***Future work***
+
 I plan to improve this project by testing deep learning models( CNN-LSTM), and maybe deploying the best model as an API for real-time predictions.
 
 **Acknowledgements**
