@@ -65,7 +65,8 @@ let us look comparison of the above 3 models in the following table:
 
 Here are some of the compppparison plots from the models:
 **XGBoost - Actual vs Predicted RUL**
-![XGBoost Results](results/actual_vs_pred_xgb.png)
+![XGBoost Results](results/code04_xgb_actual_vs_pred.png
+)
 
 **LSTM - Actual vs Predicted RUL**
 ![LSTM Results](results/actual_vs_pred_lstm.png)
