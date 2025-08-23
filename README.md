@@ -82,7 +82,7 @@ Here are some of the compppparison plots from the models:
 | Random Forest      | 34.17 | 24.39| 0.72            |
 | LSTM               | 14.01 | 10.43| 0.87            |
 | Baseline XGBoost   |  6.59 |  4.39| 0.97            |
-| **Tuned XGBoost**  | **4.98** | **3.72** | **0.98** |
+| **Tuned XGBoost**  | **4.98** | **3.38** | **0.98** |
 
 **Tuned XGBoost clearly outperformed other models** in terms of lowest error (RMSE, MAE) and highest R2_Score, making it the final chosen model for RUL prediction.
 
