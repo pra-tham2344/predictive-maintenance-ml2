@@ -72,7 +72,19 @@ Here are some of the compppparison plots from the models:
 ![LSTM Results](results/code04_lstm_actual_vs_pred.png
 )
 
-***Future work***
+**Tuned XGBoost - Actual vs Predicted RUL
+![Tuned XGBoost Results](results/code06_xgb_tuned_actual_vs_pred.png)
+
+## Final Model Comparison
+
+| Model              | RMSE  | MAE  | R²              |
+|--------------------|-------|------|-----------------|
+| Random Forest      | 34.17 | 24.39| 0.72            |
+| LSTM               | 14.01 | 10.43| 0.87            |
+| Baseline XGBoost   |  6.59 |  4.39| 0.97            |
+| **Tuned XGBoost**  | **4.98** | **3.72** | **0.98** |
+
+**Future work**
 
 I plan to improve this project by testing deep learning models( CNN-LSTM), and maybe deploying the best model as an API for real-time predictions.
 
