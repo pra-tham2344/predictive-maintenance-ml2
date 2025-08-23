@@ -1,4 +1,4 @@
-# predictive-maintenance-ml
+# Predictive-Maintenance-ML
 Predicting Remaining Useful Life (RUL) of turbofan engines with machine learning models (Random Forest, XGBoost, LSTM) for proactive maintenance and reduced downtime.
 ## overview
 This project focuses on building a predictive maintenance system for turbofan engines using NASA’s CMAPSS dataset. The main aim is to estimate the Remaining Useful Life (RUL) of engines and predict failures before they actually happen. Doing this allows maintenance to be planned in advance, which reduces unexpected breakdowns, keeps schedules optimized, and improves overall reliability.
