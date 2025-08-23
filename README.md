@@ -95,7 +95,12 @@ I plan to improve this project by testing deep learning models( CNN-LSTM), and m
 
 Dataset is from NASA Prognostics Center of EXCELLENCE(CMAPSS).
 
+## Usage
 
+I will like to mention that all codes in my repository are implemented in **Google Colab Notebooks**.
+
+If you want to run or modify the code:
+- Open the desired notebook from the notebooks/ folder, all codes are mentioned along with their sequence in this project. Copy the file path of the notebook. Open [Google Colab]. Upload the notebook or connect directly to your Google Drive.
 
 
 
