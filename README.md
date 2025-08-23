@@ -84,6 +84,9 @@ Here are some of the compppparison plots from the models:
 | Baseline XGBoost   |  6.59 |  4.39| 0.97            |
 | **Tuned XGBoost**  | **4.98** | **3.72** | **0.98** |
 
+**Tuned XGBoost clearly outperformed other models** in terms of lowest error (RMSE, MAE) and highest R2_Score, making it the final chosen model for RUL prediction.
+
+
 **Future work**
 
 I plan to improve this project by testing deep learning models( CNN-LSTM), and maybe deploying the best model as an API for real-time predictions.
